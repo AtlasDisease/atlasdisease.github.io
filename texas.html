@@ -5,8 +5,8 @@ layout: default
 <p>Below is a list of my favorite places in Texas (in no particular order).</p>
 
 {% for location in site.data.main.locations %}
-<h1>{location.name} County, Texas</h1>
-<iframe width="{location.width}" height="{location.height}" src="https://www.openstreetmap.org/export/embed?bbox={location.coordinates}&amp;layer=mapnik"></iframe>
+<h1>{{location.name}} County, Texas</h1>
+<iframe width="{{location.width}}" height="{{location.height}}" src="https://www.openstreetmap.org/export/embed?bbox={{location.coordinates}}&amp;layer=mapnik"></iframe>
 <br/>
-<small><a href="https://www.openstreetmap.org/#map={location.lcoordinates}">View Larger Map</a></small>
+<small><a href="https://www.openstreetmap.org/#map={{location.lcoordinates}}">View Larger Map</a></small>
 {% endfor %}
