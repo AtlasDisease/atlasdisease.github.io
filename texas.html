@@ -8,7 +8,7 @@ layout: default
 
 {% for location in site.data.main.locations %}
 <h2>{{location.name}} County, Texas</h2>
-<iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed?bbox={{location.coordinates}}&amp;layer=cyclemap"></iframe>
+<iframe loading="lazy" width="425" height="350" src="https://www.openstreetmap.org/export/embed?bbox={{location.coordinates}}&amp;layer=cyclemap"></iframe>
 <br/>
 <small><a href="https://www.openstreetmap.org/#map={{location.lcoordinates}}&amp;layers=C">View Larger Map</a></small>
 {% endfor %}
