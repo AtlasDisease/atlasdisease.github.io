@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8" name="viewport" content="initial-scale=1"/>
+
+		<title>AtlasDisease Blog</title>
+		<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/assets/leaflet/leaflet.css">
+
+		<script type="text/javascript" href="/assets/leaflet/leaflet.js">
+
+</head>
+<body oncontextmenu="return false;">
+  {% include nav.html name="default_nav" %}
+
+  <main>
+    {{ content }}
+  </main>
+  <hr/>
+
+  {% include footer.html %}
+
+  <script src="/assets/js/nav.js"></script>
+  <script>
+    const locations = {{ site.data.main.locations | jsonify }};
+    document.querySelectorAll('.map-container').forEach((el, i) => {
+   	const location = locations[i];
+	const map = L.map(el).setView(location.coordinates, location.zoom);
+	L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		maxZoom: 19,
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+		referrerPolicy: "no-referrer-when-downgrade"
+	}).addTo(map);
+    });
+  </script>
+</body>
+</html>
