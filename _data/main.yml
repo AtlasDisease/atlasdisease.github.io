@@ -1,0 +1,13 @@
+links:
+  - name: "About"
+    link: "about.html"
+  - name: "Texas"
+    link: "texas.html"
+
+
+locations:
+  - name: "Sanco, Coke"
+    width: 425
+    height: 350
+    coordinates: "-100.53344249725343%2C32.00459144809965%2C-100.51552534103394%2C32.0131614702575"
+    lcoordinates: "17/32.008877/-100.524484"
