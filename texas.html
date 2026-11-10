@@ -2,11 +2,12 @@
 layout: default
 ---
 
+<h1>Favorite Texas Places</h1>
 <p>Below is a list of my favorite places in Texas (in no particular order).</p>
 
 {% for location in site.data.main.locations %}
-<h1>{{location.name}} County, Texas</h1>
-<iframe width="{{location.width}}" height="{{location.height}}" src="https://www.openstreetmap.org/export/embed?bbox={{location.coordinates}}&amp;layer=mapnik"></iframe>
+<h3>{{location.name}} County, Texas</h3>
+<iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed?bbox={{location.coordinates}}&amp;layer=cyclemap"></iframe>
 <br/>
-<small><a href="https://www.openstreetmap.org/#map={{location.lcoordinates}}">View Larger Map</a></small>
+<small><a href="https://www.openstreetmap.org/#map={{location.lcoordinates}}&amp;layers=C">View Larger Map</a></small>
 {% endfor %}
