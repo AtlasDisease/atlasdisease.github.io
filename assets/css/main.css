@@ -29,24 +29,9 @@ p {
 q {
 	font-style : italic;
 }
-ul, ol {
-	list-style-position: inside;
-}
-li::marker {
-	content: "- ";
-}
-img:not(.pitem img, nav img) {
-	width : 75%;
-	align-self : center;
-}
 a:link, a:visited {
 	text-decoration : none;
 	cursor : auto;
-}
-code {
-	display : flex;
-	flex-direction : column;
-	text-align: left;
 }
 button {
 	padding : 14px 32px;
@@ -58,18 +43,6 @@ button {
 }
 button:hover{
 	text-decoration : underline;
-}
-dl {
-	padding-top : 20px;
-	text-align : left;
-}
-dt {
-	font-weight : bold;
-	font-style : italic;
-	padding-bottom : 5px;
-}
-dd {
-	margin-bottom : 20px;
 }
 footer {
 	display : flex;
@@ -96,10 +69,6 @@ nav, #links {
 	align-items : center;
 	margin-bottom : 5px;
 }
-nav img {
-	width: 40px;
-	height: auto;
-}
 #links {
 	width: 100%;
 	z-index: 1;
@@ -108,67 +77,13 @@ nav img {
 	display: none;
 }
 
-.masthead {
-	display: flex;
-	background: rgba(0,0,0,0.2) url("/assets/images/AriesTechLogo.png") no-repeat center / contain; 
-	background-blend-mode : darken;
-	height : 75vh;
-	font-family : 'Audiowide';
-	align-items: center;
-	justify-content: center;
-	/*overflow: hidden;*/
+main {
 	margin-top: 5vh;
-}
-.masthead h1 {
-	font-size : 5rem;
-	text-decoration: none;
-	margin: 0px;
-}
-.masthead q {
-	font-size : 2.15rem;
-	margin-top : 0px;
-	padding-top : 0px;
-}
-.masthead > div > div {
-	margin-top: 25px;
 }
 .quote {
 	font-size : 1.5rem;
 }
 
-.portfolio {
-	display: flex;
-	flex-flow: row wrap;
-	margin: 6vh 0px 10px;
-	/*margin: 6vh 10px 10px 10px;*/
-	width: 100%;
-}
-.pitem {
-	display : flex;
-	height : 225px;
-	padding: 2px;
-	justify-content : space-evenly;
-	flex-basis: 33%;
-}
-.pitem:hover > img {
-	opacity: 0.3;
- }
-.pitem:hover > .text {
-	visibility : visible;
-}
-
-.text {
-	visibility : hidden;
-	position : absolute;
-	align-self : center;
-	font-size : 1.5rem;
-}
-.year, .author, .description {
-	font-size: 1rem;
-}
-.description {
-	color : gold;
-}
 
 /* CSS for small screens (phones, tablets) */
 
@@ -210,27 +125,6 @@ nav img {
 		text-decoration: none;
 		font-size: 1rem;
 	}
-	.masthead {
-		max-height: 50%;
-	}
-	.masthead h1 {
-		font-size : 3rem;
-	}
-	.masthead q {
-		font-size : 1.5rem;
-	}
-	.masthead button {
-		margin-bottom: 5px;
-	}
-	.portfolio {
-		margin: 6vh 1px 1px 1px;
-	}
-	.pitem {
-		flex-basis: 100%;
-	}
-	.pitem > img {
-		width: 95%;
-	}
 }
 
 /* CSS for dark mode */
@@ -262,12 +156,6 @@ nav img {
 	/*nav:hover {
 		background-color: rgb(35,35,35);
 	}*/
-	.year {
-		color : darkgrey;
-	}
-	.author {
-		color : lightgrey;
-	}
 }
 
 /* CSS for light mode */
@@ -302,10 +190,4 @@ nav img {
 	/*nav:hover {
 		background-color: rgb(190,190,190);
 	}*/
-	.year {
-		color : rgb(15,15,15);
-	}
-	.author {
-		color : rgb(30,30,30);
-	}
 }
