@@ -26,23 +26,9 @@ p {
 	text-align : center;
 	justify-content : center;
 }
-q {
-	font-style : italic;
-}
 a:link, a:visited {
 	text-decoration : none;
 	cursor : auto;
-}
-button {
-	padding : 14px 32px;
-	border : 0px;
-	border-radius : 32px;
-	font-size : 1rem;
-	cursor : auto;
-	align-self : center;
-}
-button:hover{
-	text-decoration : underline;
 }
 footer {
 	display : flex;
@@ -143,13 +129,6 @@ main {
 	a:link:active, a:visited:active {
 		color : rgba(175, 175, 175);
 	}
-	button {
-		background-color : white;
-		color : black;
-	}
-	button:hover{
-		background-color : rgba(255, 255, 255, 0.8);
-	}
 	nav {
 		background-color: rgb(40,40,40);
 	}
@@ -173,13 +152,6 @@ main {
 	}
 	a:link:active, a:visited:active {
 		color : rgba(80, 80, 80);
-	}
-	button {
-		background-color : black;
-		color : white;
-	}
-	button:hover{
-		background-color : rgba(0, 0, 0, 0.8);
 	}
 	/* nav {
 		background-color : rgb(205,205,205);
