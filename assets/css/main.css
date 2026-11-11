@@ -54,7 +54,6 @@ footer {
 hr {
 	width: 100%;
 }
-
 nav {
 	padding: 5px 0px;
 	z-index: 1;
@@ -76,12 +75,11 @@ nav, #links {
 #menu {
 	display: none;
 }
-
 main {
 	margin-top: 5vh;
 }
-.quote {
-	font-size : 1.5rem;
+.map-container {
+	height: 350px;
 }
 
 
