@@ -13,20 +13,20 @@ locations:
   - name: "Arden, Irion"
     zoom: 16
     coordinates:
-      - 31.44234
-      - -100.77143
+      - 31.44331
+      - -100.77085
   - name: "Ballinger, Runnels"
     zoom: 14
     coordinates:
-      - 31.73758
-      - -99.96932
+      - 31.74149
+      - -99.95915
   - name: "Benficklin, Tom Green"
     zoom: 17
     coordinates:
       - 31.399968
       - -100.443567
   - name: "Benoit, Runnels"
-    zoom: 14
+    zoom: 15
     coordinates:
       - 31.78290
       - -99.84401
