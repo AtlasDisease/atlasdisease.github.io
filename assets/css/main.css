@@ -79,8 +79,9 @@ main {
 	margin-top: 5vh;
 }
 .map-container {
-	weight: 425px;
+	width: 475px;
 	height: 350px;
+	justify-self: center;
 }
 
 
