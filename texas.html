@@ -3,13 +3,12 @@ layout: maps
 ---
 
 <h1>Favorite Texas Places</h1>
-<p>Below is a list of my favorite places in Texas (in no particular order).</p>
+<p>Below is a list of my favorite places in Texas (in alphabetical order). I think Texas is the best state (some would say country) on the planet. As one of Ernest Tubb's songs says, <q>There's a little bit of everything in Texas.</q></p>
 <br/>
 
 {% for location in site.data.main.locations %}
 <h2>{{location.name}} County, Texas</h2>
-<div class="map-container" style="height=350"></div>
+<div class="map-container"></div>
 <br/>
+<small><a href="https://www.openstreetmap.org/map={{location.zoom}}/{{location.coordinates[0]}}/{{{{location.coordinates[1]}}}}&amp;layers=C">View Larger Map</a></small>
 {% endfor %}
-
-<!--<small><a href="https://www.openstreetmap.org/#map={{location.lcoordinates}}&amp;layers=C">View Larger Map</a></small>-->

@@ -26,6 +26,9 @@ p {
 	text-align : center;
 	justify-content : center;
 }
+q {
+	font-style : italic;
+}
 a:link, a:visited {
 	text-decoration : none;
 	cursor : auto;

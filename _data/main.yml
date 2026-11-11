@@ -1,6 +1,8 @@
 links:
   - name: "About"
     link: "index.html"
+  - name: "Music"
+    link: "music.html"
   - name: "Texas"
     link: "texas.html"
 
