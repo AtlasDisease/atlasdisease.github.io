@@ -16,8 +16,8 @@ body {
 	margin: 0px;
 	font-size : 1.125rem;
 }
-h1 {
-	margin-top: 6vh;
+main {
+	margin-top: 5vh;
 }
 h1, h2, h3 {
 	text-decoration : underline;
@@ -69,9 +69,6 @@ nav, #links {
 }
 #menu {
 	display: none;
-}
-main {
-	margin-top: 5vh;
 }
 .map-container {
 	width: 475px;
