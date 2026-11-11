@@ -136,10 +136,10 @@ locations:
       - 31.92552
       - -97.65580
   - name: "Montgomery, Montgomery"
-    zoom: 14
+    zoom: 15
     coordinates:
-      - 30.39464
-      - -95.69830
+      - 30.38831
+      - -95.69650
   - name: "Oakville, Live Oak"
     zoom: 14
     coordinates:
@@ -153,38 +153,38 @@ locations:
   - name: "Quitaque, Briscoe"
     zoom: 16
     coordinates:
-      - 34.36756
-      - -101.05346
+      - 34.36615
+      - -101.05615
   - name: "Richards, Grimes"
     zoom: 14
     coordinates:
       - 30.53793
       - -95.84001
   - name: "Roosevelt, Kimble"
-    zoom: 14
+    zoom: 15
     coordinates:
-      - 30.49102
-      - -100.05508
+      - 30.48999
+      - -100.05494
   - name: "Rosebud, Falls"
     zoom: 15
     coordinates:
-      - 31.07667
-      - -96.97494
+      - 31.07301
+      - -96.97834
   - name: "Round Top, Fayette"
     zoom: 15
     coordinates:
-      - 30.06367
-      - -96.69610
+      - 30.06475
+      - -96.69621
   - name: "Rusk, Cherokee"
     zoom: 14
     coordinates:
-      - 31.79815
-      - -95.15611
+      - 31.79545
+      - -95.15044
   - name: "Rutersville, Fayette"
-    zoom: 14
+    zoom: 16
     coordinates:
-      - 29.94773
-      - -96.79720
+      - 29.94774
+      - -96.79820
   - name: "San Saba, San Saba"
     zoom: 14
     coordinates:
