@@ -76,45 +76,45 @@ locations:
       - 31.167398
       - -99.256293
   - name: "Echo, Coleman"
-    zoom: 19
+    zoom: 18
     coordinates:
-      - 31.928222
-      - -99.317737
+      - 31.928231
+      - -99.317715
   - name: "Fluvanna, Scurry"
-    zoom: 14
+    zoom: 16
     coordinates:
-      - 32.88566
-      - -101.14874
+      - 32.88591
+      - -101.14881
   - name: "Fredericksburg, Gillespie"
-    zoom: 14
+    zoom: 15
     coordinates:
-      - 30.26863
-      - -98.87833
+      - 30.27478
+      - -98.87202
   - name: "Goldsmith, Ector"
     zoom: 16
     coordinates:
-      - 31.98324
-      - -102.61635
+      - 31.98167
+      - -102.61567
   - name: "Hye, Blanco"
-    zoom: 14
+    zoom: 17
     coordinates:
-      - 30.24256
-      - -98.57027
+      - 30.242552
+      - -98.570323
   - name: "Indianola, Calhoun"
     zoom: 14
     coordinates:
       - 28.51195
       - -96.48748
   - name: "Industry, Austin"
+    zoom: 16
+    coordinates:
+      - 29.97220
+      - -96.50210
+  - name: "Livingston, Polk"
     zoom: 15
     coordinates:
-      - 29.97102
-      - -96.49780
-  - name: "Livingston, Polk"
-    zoom: 14
-    coordinates:
-      - 30.71232
-      - -94.93926
+      - 30.71092
+      - -94.93278
   - name: "Lone Wolf, Tom Green"
     zoom: 17
     coordinates:
