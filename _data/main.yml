@@ -136,10 +136,10 @@ locations:
       - 31.92552
       - -97.65580
   - name: "Montgomery, Montgomery"
-    zoom: 15
+    zoom: 14
     coordinates:
-      - 30.38831
-      - -95.69650
+      - 30.38916
+      - -95.69658
   - name: "Oakville, Live Oak"
     zoom: 14
     coordinates:
@@ -151,10 +151,10 @@ locations:
       - 30.86603
       - -96.69553
   - name: "Quitaque, Briscoe"
-    zoom: 16
+    zoom: 15
     coordinates:
       - 34.36615
-      - -101.05615
+      - -101.05800
   - name: "Richards, Grimes"
     zoom: 14
     coordinates:
