@@ -25,6 +25,7 @@
     const locations = {{ site.data.main.locations | jsonify }};
     document.querySelectorAll('.map-container').forEach((el, i) => {
    	const location = locations[i];
+	console.log(location.coordinates);
 	const map = L.map(el).setView(location.coordinates, location.zoom);
 	L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		maxZoom: 19,
