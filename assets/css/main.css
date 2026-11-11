@@ -79,6 +79,7 @@ main {
 	margin-top: 5vh;
 }
 .map-container {
+	weight: 425px;
 	height: 350px;
 }
 
