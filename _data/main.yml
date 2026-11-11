@@ -36,7 +36,7 @@ locations:
       - 31.99598
       - -99.22562
   - name: "Cameron, Milam"
-    zoom: 15
+    zoom: 14
     coordinates:
       - 30.85272
       - -96.97735
@@ -51,35 +51,35 @@ locations:
       - 31.19456
       - -100.49538
   - name: "Coldspring, San Jacinto"
-    zoom: 15
+    zoom: 16
     coordinates:
-      - 30.58711
-      - -95.13099
+      - 30.59239
+      - -95.12933
   - name: "Colorado City, Mitchell"
-    zoom: 14
+    zoom: 13
     coordinates:
       - 32.39887
       - -100.86012
   - name: "Corsicana, Navarro"
-    zoom: 13
+    zoom: 14
     coordinates:
-      - 32.07546
-      - -96.45998
+      - 32.09363
+      - -96.46425
   - name: "Dublin, Erath"
     zoom: 14
     coordinates:
       - 32.08488
       - -98.34434
   - name: "East Sweden, McCulloch"
-    zoom: 14
+    zoom: 17
     coordinates:
-      - 31.16739
-      - -99.25616
+      - 31.167398
+      - -99.256293
   - name: "Echo, Coleman"
-    zoom: 18
+    zoom: 19
     coordinates:
-      - 31.928295
-      - -99.318472
+      - 31.928222
+      - -99.317737
   - name: "Fluvanna, Scurry"
     zoom: 14
     coordinates:
