@@ -26,20 +26,20 @@ locations:
       - 31.399968
       - -100.443567
   - name: "Benoit, Runnels"
-    zoom: 15
+    zoom: 16
     coordinates:
-      - 31.78290
-      - -99.84401
+      - 31.78239
+      - -99.82961
   - name: "Burkett, Coleman"
     zoom: 14
     coordinates:
       - 31.99598
       - -99.22562
   - name: "Cameron, Milam"
-    zoom: 14
+    zoom: 15
     coordinates:
-      - 30.86497
-      - -96.97767
+      - 30.85272
+      - -96.97735
   - name: "Chappell Hill, Washington"
     zoom: 14
     coordinates:
