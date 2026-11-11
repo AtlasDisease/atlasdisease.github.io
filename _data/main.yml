@@ -193,53 +193,53 @@ locations:
   - name: "Sanco, Coke"
     zoom: 17
     coordinates:
-      - 32.008877
-      - -100.524484
+      - 32.008212
+      - -100.524098
   - name: "Sand Ridge, Houston"
-    zoom: 14
+    zoom: 15
     coordinates:
-      - 31.10741
-      - -95.68495
+      - 31.10671
+      - -95.68727
   - name: "Sherwood, Irion"
     zoom: 14
     coordinates:
       - 31.28128
       - -100.79538
   - name: "Silver, Coke"
-    zoom: 14
+    zoom: 15
     coordinates:
-      - 32.07089
-      - -100.68281
+      - 32.07065
+      - -100.67772
   - name: "Sunshine, Nueces"
     zoom: 18
     coordinates:
       - 27.677357
       - -97.351795
   - name: "Telegraph, Kimble"
-    zoom: 14
+    zoom: 15
     coordinates:
-      - 30.32742
-      - -99.90618
+      - 30.32736
+      - -99.90701
   - name: "Washington, Washington"
-    zoom: 14
+    zoom: 15
     coordinates:
-      - 30.32517
-      - -96.15781
+      - 30.32480
+      - -96.15732
   - name: "Welcome, Austin"
-    zoom: 14
+    zoom: 16
     coordinates:
-      - 30.02772
-      - -96.48914
+      - 30.02699
+      - -96.48951
   - name: "Wheelock, Robertson"
-    zoom: 14
+    zoom: 16
     coordinates:
-      - 30.89939
-      - -96.39094
+      - 30.89878
+      - -96.39093
   - name: "Whiteflat, Motley"
-    zoom: 14
+    zoom: 16
     coordinates:
-      - 34.10535
-      - -100.88958
+      - 34.10527
+      - -100.88943
   - name: "Zephyr, Brown"
     zoom: 14
     coordinates:
