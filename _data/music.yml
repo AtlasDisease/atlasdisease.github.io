@@ -1,0 +1,46 @@
+favorite_artists:
+  - "The Cars"
+  - "Weezer"
+  - "Bob Wills"
+
+other_artists:
+  - "Marty Robbins"
+  - "Don Williams"
+  - "Merle Haggard"
+  - "The Doors"
+  - "Anri"
+  - "1986 OMEGA TRIBE"
+  - "Billy Joel"
+  - "Vansire"
+  - "Ronnie Milsap"
+  - "Steve Wariner"
+
+albums:
+  - "The Cars - Heartbeat City"
+  - "The Cars - Door To Door"
+  - "Weezer - Blue Album"
+  - "Weezer - Pinkerton"
+  - "Marty Robbins - Gunfighter Ballads & Trail Songs"
+  - "Marty Robbins - Gunfighter Ballads & Trail Songs II"
+
+songs:
+  - "The Cars - You Might Think"
+  - "The Cars - You Are The Girl"
+  - "The Cars - Night Spots"
+  - "Weezer - Buddy Holly"
+  - "Weezer - Island in the Sun"
+  - "Bob Wills - San Antonio Rose"
+  - "Bob Wills - Maiden's Prayer"
+  - "Bob Wills - Faded Love"
+  - "Marty Robbins - Cottonwood Tree"
+  - "Marty Robbins - San Angelo"
+  - "Don Williams - Lord I Hope This Day Is Good"
+  - "Steve Wariner - Daybreak"
+
+genres:
+  - "Rock"
+  - "Country"
+  - "Japanese City Pop"
+  - "Vaporwave"
+  - "Weatherwave"
+  - "Indie Pop"
