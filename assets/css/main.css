@@ -33,12 +33,12 @@ a:link, a:visited {
 	text-decoration : none;
 	cursor : auto;
 }
-main .multi-list {
+main .list {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.multi-list ul {
+.list ul, ol {
 	text-align: left;
 }
 ul, ol {
