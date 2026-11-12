@@ -6,16 +6,18 @@ layout: default
 <p>I used to not like much music as I think most of it sucked. Most of it still does, but below are some of my favorite genres and artists. I prefer my music in vinyl, but I definitely like the flexibility and portability of Spotify.</p>
 
 <h2>Artists</h2>
-<ol>
-	{% for artist in site.data.music.favorite_artists %}
-	<li>{{artist}}</li>
-	{% endfor %}
-</ol>
-<ul>
-	{% for artist in site.data.music.other_artists %}
-	<li>{{artist}}</li>
-	{% endfor %}
-</ul>
+<div class="multi-list">
+	<ol>
+		{% for artist in site.data.music.favorite_artists %}
+		<li>{{artist}}</li>
+		{% endfor %}
+	</ol>
+	<ul>
+		{% for artist in site.data.music.other_artists %}
+		<li>{{artist}}</li>
+		{% endfor %}
+	</ul>
+</div>
 
 <h2>Albums</h2>
 <ul>
