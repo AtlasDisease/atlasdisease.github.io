@@ -33,10 +33,10 @@ a:link, a:visited {
 	text-decoration : none;
 	cursor : auto;
 }
-ul {
+ul, ol {
 	list-style-position: inside;
 }
-li::marker {
+ul li::marker {
 	content: "- ";
 }
 footer {
