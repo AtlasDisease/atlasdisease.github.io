@@ -33,7 +33,7 @@ a:link, a:visited {
 	text-decoration : none;
 	cursor : auto;
 }
-ul, ol {
+ul {
 	list-style-position: inside;
 }
 li::marker {
