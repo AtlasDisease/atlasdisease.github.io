@@ -3,6 +3,8 @@
        <i class="fa fa-bars"></i>
     </a>
     <div id="links">
-	{% include {{include.name}}.html %}
+	{% for link in site.data.main.links %}
+	<a href="{{link.link}}">{{link.name}}</a>
+	{% endfor %}
     </div>
  </nav>
